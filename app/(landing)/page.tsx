@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import Image from 'next/image'
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
@@ -8,12 +8,11 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                </svg>
+              <div className="w-8 h-8 md:w-10 md:h-10 bg-gray-900 rounded-lg flex items-center p-1 justify-center">
+
+               <Image src="/logo/blitztask_main_logo.png" alt="me" width="64" height="64" />
               </div>
-              <span className="text-xl font-semibold text-gray-900">TaskFlow</span>
+              <span className="text-xl font-sans text-gray-900">BlitzTask</span>
             </div>
             <div className="flex items-center gap-6">
               <a href="#features" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Features</a>
@@ -278,12 +277,10 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                </svg>
+              <div className="w-8 h-8 md:w-10 md:h-10 bg-gray-900 rounded-lg flex items-center p-1 md:p-2 justify-center">
+  <Image src="/logo/blitztask_main_logo.png" alt="me" width="64" height="64" />
               </div>
-              <span className="text-lg font-semibold text-gray-900">TaskFlow</span>
+              <span className="text-lg font-semibold text-gray-900">BlitzTask</span>
             </div>
             
             <div className="flex items-center gap-6 text-sm text-gray-600">
