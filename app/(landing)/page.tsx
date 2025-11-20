@@ -431,9 +431,7 @@ export default function LandingPage() {
                   height="64"
                 />
               </div>
-              <span className="text-lg font-semibold text-gray-900">
-                BlitzTask
-              </span>
+              <span className="text-xl font-sans text-gray-900">BlitzTask</span>
             </div>
 
             <div className="flex items-center gap-6 text-sm text-gray-600">
