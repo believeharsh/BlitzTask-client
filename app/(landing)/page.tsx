@@ -1,5 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata = {
+  title: "BlitzTask | Landing",
+};
+
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
